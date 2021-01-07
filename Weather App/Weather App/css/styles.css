@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Exo");
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Exo', sans-serif; }
+ 
+ 
+  h2.ui.center.aligned.header{
+  margin: 50px 0px -20px 0px;
+    padding: 10px 10px;
+	}
+
+.ui.card:last-child {
+    margin-bottom: 0;
+    box-shadow: 6px 3px 6px darkgrey;
+}
+  

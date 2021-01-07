@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- Standard Meta -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+<!-- Site Properties -->
+<title>Weather App</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+<script  src="https://code.jquery.com/jquery-3.1.1.min.js"  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script>
+<script src="semantic/dist/semantic.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+</head>
+  
+<body>    
+<h2 class="ui center aligned header">
+
+  Weather indicator
+</h2>
+<div class="ui equal width center aligned padded grid">
+
+    <div class="ui center aligned" style="margin-top:4em;">
+	<div class="ui action input" id="seachAction"> 
+  <input type="text" id="city-search" placeholder="Search by city name...">
+  <button class="ui button" value="Search" id="search-btn">Search</button>
+</div>
+        <div class="ui card">
+            <div class="image" id="location-img">
+                <img id="img1" src="https://gcs.thesouthafrican.com/2018/08/cloud-346710_1280.png">
+            </div>
+            <div class="content">
+			
+                <a class="header"><span id="location">No location selected</span></a>
+                <div class="meta">
+                   <span id="temperature">Please enter a country name</span> </div>
+				   <div id="humidity"> Humidity: null</div>
+                </div>
+				
+                <div class="description">
+					
+					<span id="description" class="ui strong text "></span>
+            </div>
+            <div class="extra content">
+		
+               
+			
+		
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+</body>
+</html>
+	
+<body>
+
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="script/script.js"></script>
+</html>
