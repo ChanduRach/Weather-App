@@ -12,5 +12,5 @@ When the user enters the city name and clicks on the search button the city name
 
 The API provider is http://www.OpenWeatherMap.org
 
-Git hub repo - 
+Git hub repo - https://github.com/ChanduRach/Weather-App/tree/main/Weather%20App/Weather%20App
 
